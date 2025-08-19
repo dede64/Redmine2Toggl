@@ -1,7 +1,7 @@
 # Redmine2Toggl (Safari extension)
 
 Copy the current Redmine ticket as `#1234: [Ticket title]` with one click.
-Primarily designed to be used together with [**Toggl2Redmine**]( https://github.com/LukasHromadnik/) tool
+Primarily designed to be used together with [**Toggl2Redmine**]( https://github.com/LukasHromadnik/Toggl2Redmine) tool.
 
 ## Why
 [Toggl2Redmine](https://github.com/LukasHromadnik/Toggl2Redmine) expects time entry titles to start with `#{issue-id}: ...`.  
@@ -19,9 +19,10 @@ This extension copies exactly that pattern for the currently open Redmine issue 
 
 ## Installation (macOS Safari)
 
-1. Open the Xcode project and **Run** the app target to install the extension host app.
-2. Open **Safari → Settings → Extensions** and **enable** _Redmine Ticket Copier_.
-3. _(Important)_ **Grant website access** (one-time):
+1. Open the Xcode project and **set your development team** in project settings.
+2. **Run** the app target to install the extension host app.
+3. Open **Safari → Settings → Extensions** and **enable** _Redmine Ticket Copier_.
+4. _(Important)_ **Grant website access** (one-time):
    - Click your extension in the list → **Edit Websites…**
    - Add/allow your Redmine domains.
 
